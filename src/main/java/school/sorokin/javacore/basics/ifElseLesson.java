@@ -16,5 +16,6 @@ public class ifElseLesson {
             case 5 -> System.out.println("The fifth genre");
             default -> System.out.println("No such genre");
         }
+        scanner.close();
     }
 }
