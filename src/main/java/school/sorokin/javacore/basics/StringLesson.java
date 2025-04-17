@@ -1,12 +1,23 @@
 package school.sorokin.javacore.basics;
 
+import java.util.Scanner;
+
 public class StringLesson {
     public static void main(String[] args) {
-        String sentence = "Java is cool and very popular.";
-        boolean containsCool = sentence.contains("cool");
-        System.out.println("Содержит 'cool'? " + containsCool);
+        Scanner scanner = new Scanner(System.in);
+        String text = scanner.nextLine();
+        System.out.println(text.length());
+        System.out.println(text.toUpperCase());
 
-        String[] words = sentence.split(" ");
-        System.out.println("Количество слов: " + words.length);
+        if (text.contains("Java")) {
+            System.out.println(text.indexOf("Java"));
+        } else {
+            System.out.println("Not a Java");
+        }
+
+        String[] newText = text.split(" ");
+        for (String s : newText) {
+            System.out.println(s);
+        }
     }
 }
