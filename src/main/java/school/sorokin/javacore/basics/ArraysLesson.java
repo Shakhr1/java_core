@@ -31,5 +31,6 @@ public class ArraysLesson {
         }
         System.out.println("Max: " + max);
         System.out.println("Min: " + min);
+        scanner.close();
     }
 }
