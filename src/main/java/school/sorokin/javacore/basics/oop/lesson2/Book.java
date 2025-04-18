@@ -1,4 +1,4 @@
-package school.sorokin.javacore.basics.oop;
+package school.sorokin.javacore.basics.oop.lesson2;
 
 public class Book {
     String title;
