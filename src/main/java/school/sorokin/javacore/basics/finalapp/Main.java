@@ -10,6 +10,11 @@ public class Main {
 
         while (true) {
             printMenu();
+            if (!scanner.hasNextInt()) {
+                System.out.println("Ошибка! Введите целое число.");
+                scanner.next();
+            }
+
             int choice = scanner.nextInt();
             scanner.nextLine();
 

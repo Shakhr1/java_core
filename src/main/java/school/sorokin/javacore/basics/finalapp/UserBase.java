@@ -10,23 +10,49 @@ public class UserBase {
     int currentContact = 0;
 
     public void addContact() {
+        String name;
         if (currentContact >= phoneNumbers.length) {
             System.out.println("Телефонная книга заполнена!");
             return;
         }
-        System.out.println("Введите имя:");
-        people[currentContact] = scanner.nextLine();
-        if (people[currentContact].trim().isEmpty()) {
-            System.out.println("Ошибка: имя не может быть пустым!");
-            return;
+
+        while (true) {
+            System.out.println("Введите имя:");
+            name = scanner.nextLine().trim();
+
+            if (name.isEmpty()) {
+                System.out.println("Ошибка: имя не может быть пустым!");
+                continue;
+            }
+
+            boolean duplicateFound = false;
+            for (int i = 0; i < currentContact; i++) {
+                if (name.equalsIgnoreCase(people[i])) {
+                    System.out.println("Ошибка: контакт с таким именем уже существует!");
+                    duplicateFound = true;
+                    break;
+                }
+            }
+
+            if (!duplicateFound) {
+                break;
+            }
         }
+
         System.out.println("Введите номер телефона:");
+        while (!scanner.hasNextInt()) {
+            System.out.println("Ошибка! Введите целое число.");
+            scanner.next();
+        }
+
         phoneNumbers[currentContact] = scanner.nextInt();
         scanner.nextLine();
+        people[currentContact] = name;
+
         System.out.println("Имя: " + people[currentContact]);
         System.out.println("Телефон: " + phoneNumbers[currentContact]);
-        currentContact++;
         System.out.println("Контакт успешно добавлен!");
+        currentContact++;
     }
 
     public void findContact() {
@@ -62,11 +88,11 @@ public class UserBase {
         }
 
         System.out.println("Имя контакта для удаления: ");
-        String nameToDelete = scanner.nextLine();
+        String nameToDelete = scanner.nextLine().trim();
 
         boolean found = false;
         for (int i = 0; i < currentContact; i++) {
-            if (people[i].equalsIgnoreCase(nameToDelete)) {
+            if (people[i] != null && people[i].equalsIgnoreCase(nameToDelete)) {
                 for (int j = i; j < currentContact - 1; j++) {
                     people[j] = people[j + 1];
                     phoneNumbers[j] = phoneNumbers[j + 1];
@@ -74,8 +100,8 @@ public class UserBase {
                 people[i] = null;
                 phoneNumbers[i] = 0;
                 currentContact--;
+                System.out.println("Контакт удален.");
                 found = true;
-                System.out.println("Контакт удален");
                 break;
             }
         }
@@ -87,7 +113,9 @@ public class UserBase {
 
     public void viewContacts() {
         for (int i = 0; i < phoneNumbers.length; i++) {
-            System.out.println(people[i] + " - " + phoneNumbers[i]);
+            if (people[i] != null) {
+                System.out.println(people[i] + " - " + phoneNumbers[i]);
+            }
         }
     }
 }
