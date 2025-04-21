@@ -2,11 +2,18 @@ package school.sorokin.javacore.oop.finalproject;
 
 import java.util.Objects;
 
-public abstract class Publication {
+public abstract class Publication implements Printable {
     private String title;
     private String author;
     private int year;
-    private static int publicationCount = 0;
+
+    protected Publication(String title, String author, int year) {
+        this.title = title;
+        this.author = author;
+        this.year = year;
+    }
+
+    public abstract String getType();
 
     public String getTitle() {
         return title;
@@ -32,21 +39,6 @@ public abstract class Publication {
         this.year = year;
     }
 
-    public static void setPublicationCount(int publicationCount) {
-        Publication.publicationCount = publicationCount;
-    }
-
-    public Publication(String title, String author, int year) {
-        this.title = title;
-        this.author = author;
-        this.year = year;
-    }
-    public abstract String getType();
-
-    public static int getPublicationCount() {
-        publicationCount++;
-        return publicationCount;
-    }
 
     @Override
     public String toString() {
