@@ -1,4 +1,4 @@
-package school.sorokin.javacore.basics.oop.lesson2;
+package school.sorokin.javacore.oop.lesson2;
 
 public class Main {
     public static void main(String[] args) {

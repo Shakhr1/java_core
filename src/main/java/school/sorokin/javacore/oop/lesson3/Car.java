@@ -1,4 +1,4 @@
-package school.sorokin.javacore.basics.oop.lesson3;
+package school.sorokin.javacore.oop.lesson3;
 
 public class Car {
     private String brand;
