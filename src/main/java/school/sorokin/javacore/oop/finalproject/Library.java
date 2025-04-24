@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Library {
-    Scanner scanner = new Scanner(System.in);
+    private final Scanner scanner = new Scanner(System.in);
     private static int publicationCount = 0;
-    private List<Publication> publications = new ArrayList<>();
+    private final List<Publication> publications = new ArrayList<>();
     private static final String ENTER_AUTHOR = "Введите автора: ";
     private static final String ENTER_TITLE = "Введите название: ";
     private static final String ENTER_YEAR = "Введите год: ";
@@ -31,7 +31,7 @@ public class Library {
                     int year = readInt(scanner);
                     System.out.print("Введите ISBN: ");
                     String isbn = scanner.nextLine().trim();
-                    publications.add(new Book(title, author, year, isbn));
+                    addPublicationCount(new Book(title, author, year, isbn));
                     break;
                 case "2":
                     System.out.print(ENTER_TITLE);
@@ -42,7 +42,7 @@ public class Library {
                     year = readInt(scanner);
                     System.out.print("Введите номер выпуска: ");
                     int issueNumber = readInt(scanner);
-                    publications.add(new Magazine(title, author, year, issueNumber));
+                    addPublicationCount(new Magazine(title, author, year, issueNumber));
                     break;
                 case "3":
                     System.out.print(ENTER_TITLE);
@@ -53,7 +53,7 @@ public class Library {
                     year = readInt(scanner);
                     System.out.print("Введите дату публикации: ");
                     var publicationDay = scanner.nextLine();
-                    publications.add(new Newspaper(title, author, year, publicationDay));
+                    addPublicationCount(new Newspaper(title, author, year, publicationDay));
                     break;
                 case "0":
                     return;
@@ -61,9 +61,13 @@ public class Library {
                     System.out.println("Ошибка: Введите 1, 2, 3 или 0");
                     break;
             }
-            publicationCount++;
-            System.out.println("Публикация успешно добавлена!");
         }
+    }
+
+    public void addPublicationCount(Publication pub) {
+        publications.add(pub);
+        setPublicationCount(1);
+        System.out.println("Публикация успешно добавлена!");
     }
 
     public void listPublications() {
@@ -105,7 +109,11 @@ public class Library {
         }
     }
 
-    public static int getPublicationCount() {
+    public int getPublicationCount() {
         return publicationCount;
+    }
+
+    public static void setPublicationCount(int publicationCount) {
+        Library.publicationCount = publicationCount;
     }
 }
