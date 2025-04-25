@@ -28,7 +28,7 @@ public class Main {
                     default -> System.out.println("Извините, такой команды пока нет.");
                 }
             } catch (InputMismatchException e) {
-                System.out.println("Введите число");
+                System.out.println("Введите число 1 - 5");
                 scanner.next();
             }
         }
@@ -41,7 +41,7 @@ public class Main {
                 2. Добавить объект.
                 3. Выдать объект.
                 4. Вернуть объект.
-                5. Выйти из приложения. 
+                5. Выйти из приложения.
                 """);
     }
 }
