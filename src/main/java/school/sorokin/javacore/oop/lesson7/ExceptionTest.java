@@ -21,7 +21,7 @@ public class ExceptionTest {
         try {
             String firstLine = readFirstLine(filename);
             System.out.println("Первая строка: " + (firstLine != null ? firstLine : "Файл пуст"));
-        } catch (IOException e) {
+        } catch (NotFoundDataException | IOException e) {
             System.err.println("Ошибка: " + e.getMessage());
         } finally {
             scanner.close();
