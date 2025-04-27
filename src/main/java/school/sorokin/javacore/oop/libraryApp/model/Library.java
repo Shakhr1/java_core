@@ -8,18 +8,14 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Library {
-    private final String ENTER_TITLE;
-    private final String CATALOG_IS_EMPTY;
-    private final String BOOK_NOT_FOUND;
-    private final String INVALID_DATA;
+    private final String ENTER_TITLE = "Введите название книги: ";
+    private final String CATALOG_IS_EMPTY = "В библиотеке нет книг.";
+    private final String BOOK_NOT_FOUND = "Книга не найдена: ";
+    private final String INVALID_DATA = "Данные введены некорректно";
     private final List<Book> catalog;
     private final Scanner scanner;
 
     public Library() {
-        ENTER_TITLE = "Введите название книги: ";
-        BOOK_NOT_FOUND = "Книга не найдена: ";
-        CATALOG_IS_EMPTY = "В библиотеке нет книг.";
-        INVALID_DATA = "Данные введены некорректно";
         catalog = new ArrayList<>();
         scanner = new Scanner(System.in);
     }
@@ -46,15 +42,15 @@ public class Library {
                 System.out.println(INVALID_DATA);
                 return;
             }
-            addBookToCatalog(new Book(title, author, copies));
+            addBookToCatalog(new Book(title, author, copies), copies);
         } catch (NumberFormatException e) {
             System.out.println("Количество должно быть числом.");
         }
     }
 
-    public void addBookToCatalog(Book book) {
+    private void addBookToCatalog(Book book, int copies) {
         catalog.add(book);
-        book.setAvailableCopies(1);
+        book.setAvailableCopies(copies);
         System.out.println("Успешно добавлена.");
     }
 
