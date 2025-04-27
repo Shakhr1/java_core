@@ -8,10 +8,10 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Library {
-    private final String ENTER_TITLE = "Введите название книги: ";
-    private final String CATALOG_IS_EMPTY = "В библиотеке нет книг.";
-    private final String BOOK_NOT_FOUND = "Книга не найдена: ";
-    private final String INVALID_DATA = "Данные введены некорректно";
+    private final static String ENTER_TITLE = "Введите название книги: ";
+    private final static String CATALOG_IS_EMPTY = "В библиотеке нет книг.";
+    private final static String BOOK_NOT_FOUND = "Книга не найдена: ";
+    private final static String INVALID_DATA = "Данные введены некорректно";
     private final List<Book> catalog;
     private final Scanner scanner;
 
