@@ -1,4 +1,4 @@
-package school.sorokin.javacore.oop.lesson6;
+package school.sorokin.javacore.oop.lessons.lesson8.lesson6;
 
 import java.util.Scanner;
 

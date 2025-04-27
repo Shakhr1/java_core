@@ -1,4 +1,4 @@
-package school.sorokin.javacore.oop.lesson4;
+package school.sorokin.javacore.oop.lessons.lesson8.lesson4;
 
 public class Circle extends Shape {
     String shape = "Circle";

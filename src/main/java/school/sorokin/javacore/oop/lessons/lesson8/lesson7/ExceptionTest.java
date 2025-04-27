@@ -1,4 +1,4 @@
-package school.sorokin.javacore.oop.lesson7;
+package school.sorokin.javacore.oop.lessons.lesson8.lesson7;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

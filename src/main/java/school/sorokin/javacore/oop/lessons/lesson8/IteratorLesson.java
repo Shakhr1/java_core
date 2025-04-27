@@ -1,4 +1,4 @@
-package school.sorokin.javacore.oop.lesson8;
+package school.sorokin.javacore.oop.lessons.lesson8;
 
 import java.util.ArrayList;
 import java.util.List;
