@@ -34,7 +34,7 @@ public class Main {
 
     private static void printMenu() {
         System.out.print("""
-                1. Добавить контакт"
+                1. Добавить контакт
                 2. Просмотреть контакты
                 3. Найти контакт
                 4. Удалить контакт
