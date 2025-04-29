@@ -1,4 +1,67 @@
 package school.sorokin.javacore.oop.contactApp.service;
 
+import school.sorokin.javacore.oop.contactApp.exception.DuplicateContactException;
+import school.sorokin.javacore.oop.contactApp.model.Contact;
+
+import java.util.*;
+
 public class ContactBook {
+    private final Scanner scanner;
+    private final List<Contact> contactList;
+    private final Set<Contact> contactSet;
+    private final Map<String, List<Contact>> groupMap;
+
+    public ContactBook() {
+        scanner = new Scanner(System.in);
+        contactList = new ArrayList<>();
+        contactSet = new HashSet<>();
+        groupMap = new HashMap<>();
+    }
+
+    public void writeNewContact() {
+        System.out.print("Введите имя и фамилию: ");
+        String name = scanner.nextLine().trim();
+        System.out.print("Введите телефон: ");
+        String phone = scanner.nextLine().trim();
+        System.out.print("Введите эл.почту: ");
+        String email = scanner.nextLine().trim();
+        System.out.print("Введите группу (Работа, Друзья, Семья): ");
+        String group = scanner.nextLine().trim();
+        addContact(new Contact(name, phone, email, group));
+    }
+
+    private void addContact(Contact contact) {
+        try {
+            if (contactSet.contains(contact)) {
+                throw new DuplicateContactException("Контакт уже существует!");
+            }
+        } catch (DuplicateContactException e) {
+            System.out.println(e.getMessage());
+        }
+
+        contactList.add(contact);
+        contactSet.add(contact);
+        System.out.println("Контакт добавлен.");
+        String group = contact.getGroup();
+        groupMap.computeIfAbsent(group, k -> new ArrayList<>()).add(contact);
+    }
+
+    public void deleteContact() {
+    }
+
+    public void viewAllContact() {
+        if (contactList.isEmpty()) {
+            System.out.println("Контактов нет.");
+            return;
+        }
+        for (Contact contact : contactList) {
+            System.out.println(contact);
+        }
+    }
+
+    public void findContact() {
+    }
+
+    public void getContactsByGroup() {
+    }
 }
