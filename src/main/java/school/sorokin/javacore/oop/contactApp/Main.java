@@ -17,11 +17,11 @@ public class Main {
                 scanner.nextLine();
 
                 switch (input) {
-                    case 1 -> contactBook.getAllBooks();
-                    case 2 -> contactBook.addBook();
-                    case 3 -> contactBook.takeBook();
-                    case 4 -> contactBook.returnBook();
-                    case 5 -> contactBook.returnBook();
+                    case 1 -> contactBook.writeNewContact();
+                    case 2 -> contactBook.deleteContact();
+                    case 3 -> contactBook.viewAllContact();
+                    case 4 -> contactBook.findContact();
+                    case 5 -> contactBook.getContactsByGroup();
                     case 0 -> {
                         System.out.println("Выход...");
                         System.exit(0);
