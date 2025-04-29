@@ -3,12 +3,17 @@ package school.sorokin.javacore.basics.finalapp;
 import java.util.Scanner;
 
 public class UserBase {
-    Scanner scanner = new Scanner(System.in);
+    Scanner scanner;
+    int[] phoneNumbers;
+    String[] people;
+    int currentContact;
 
-    int[] phoneNumbers = new int[10];
-    String[] people = new String[10];
-    int currentContact = 0;
-
+    public UserBase() {
+        scanner = new Scanner(System.in);
+        phoneNumbers = new int[10];
+        people = new String[10];
+        currentContact = 0;
+    }
     public void addContact() {
         String name;
         if (currentContact >= phoneNumbers.length) {
