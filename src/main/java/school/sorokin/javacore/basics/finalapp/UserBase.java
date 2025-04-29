@@ -22,7 +22,7 @@ public class UserBase {
         }
 
         while (true) {
-            System.out.println("Введите имя:");
+            System.out.print("Введите имя: ");
             name = scanner.nextLine().trim();
 
             if (name.isEmpty()) {
@@ -44,7 +44,7 @@ public class UserBase {
             }
         }
 
-        System.out.println("Введите номер телефона:");
+        System.out.print("Введите номер телефона: ");
         while (!scanner.hasNextInt()) {
             System.out.println("Ошибка! Введите целое число.");
             scanner.next();
@@ -62,10 +62,10 @@ public class UserBase {
 
     public void findContact() {
         if (people == null || currentContact == 0) {
-            System.out.println("Список контактов отсутствует");
+            System.out.println("Список контактов отсутствует.");
             return;
         }
-        System.out.println("Имя для поиска: ");
+        System.out.print("Имя для поиска: ");
         String searchName = scanner.nextLine();
 
         boolean found = false;
