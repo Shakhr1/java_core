@@ -88,7 +88,7 @@ public class UserBase {
 
     public void deleteContact() {
         if (currentContact == 0) {
-            System.out.println("Список контактов отсутствует");
+            System.out.println("Список контактов отсутствует.");
             return;
         }
 
