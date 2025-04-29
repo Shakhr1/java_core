@@ -82,7 +82,7 @@ public class UserBase {
         if (found) {
             System.out.println("Телефон " + people[contactIndex] + ": " + phoneNumbers[contactIndex]);
         } else {
-            System.out.println("Контакт не найден");
+            System.out.println("Контакт не найден.");
         }
     }
 
