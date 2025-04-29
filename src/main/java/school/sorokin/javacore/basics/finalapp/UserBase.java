@@ -3,10 +3,10 @@ package school.sorokin.javacore.basics.finalapp;
 import java.util.Scanner;
 
 public class UserBase {
-    Scanner scanner;
-    int[] phoneNumbers;
-    String[] people;
-    int currentContact;
+    private final Scanner scanner;
+    private final int[] phoneNumbers;
+    private final String[] people;
+    private int currentContact;
 
     public UserBase() {
         scanner = new Scanner(System.in);
