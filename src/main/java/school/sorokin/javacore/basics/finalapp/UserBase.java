@@ -112,7 +112,7 @@ public class UserBase {
         }
 
         if (!found) {
-            System.out.println("Контакт не найден");
+            System.out.println("Контакт не найден.");
         }
     }
 
