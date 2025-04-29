@@ -34,17 +34,19 @@ public class Main {
                 case 5:
                     System.out.println("Выход...");
                     System.exit(0);
-                    default:
-                System.out.println("Извините, такой команды пока нет.");
+                default:
+                    System.out.println("Извините, такой команды пока нет.");
             }
         }
     }
 
-    public static void printMenu () {
-        System.out.println("1. Добавить контакт");
-        System.out.println("2. Просмотреть контакты");
-        System.out.println("3. Найти контакт");
-        System.out.println("4. Удалить контакт");
-        System.out.println("5. Выйти");
+    private static void printMenu() {
+        System.out.print("""
+                1. Добавить контакт"
+                2. Просмотреть контакты
+                3. Найти контакт
+                4. Удалить контакт
+                5. Выйти
+                """);
     }
 }
