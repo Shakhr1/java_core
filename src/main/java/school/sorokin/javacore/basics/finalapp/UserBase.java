@@ -92,7 +92,7 @@ public class UserBase {
             return;
         }
 
-        System.out.println("Имя контакта для удаления: ");
+        System.out.print("Имя контакта для удаления: ");
         String nameToDelete = scanner.nextLine().trim();
 
         boolean found = false;
