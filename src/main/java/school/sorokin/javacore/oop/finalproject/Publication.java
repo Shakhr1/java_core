@@ -42,11 +42,10 @@ public abstract class Publication implements Printable {
 
     @Override
     public String toString() {
-        return "Publication{" +
+        return "Publication " +
                 "title='" + title + '\'' +
                 ", author='" + author + '\'' +
-                ", year=" + year +
-                '}';
+                ", year=" + year;
     }
 
     @Override
