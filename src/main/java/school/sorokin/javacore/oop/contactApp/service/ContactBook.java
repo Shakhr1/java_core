@@ -63,5 +63,15 @@ public class ContactBook {
     }
 
     public void getContactsByGroup() {
+        if (groupMap.isEmpty()) {
+            System.out.println("Список контактов пуст!");
+            return;
+        }
+        System.out.print("Введите название группы: ");
+        String group = scanner.nextLine().trim();
+        System.out.println("Контакты в группе -> " + group);
+        for (Contact contact : groupMap.get(group)) {
+            System.out.println(contact);
+        }
     }
 }
