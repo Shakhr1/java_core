@@ -37,13 +37,14 @@ public class ContactBook {
             }
         } catch (DuplicateContactException e) {
             System.out.println(e.getMessage());
+            return;
         }
 
         contactList.add(contact);
         contactSet.add(contact);
-        System.out.println("Контакт добавлен.");
         String group = contact.getGroup();
         groupMap.computeIfAbsent(group, k -> new ArrayList<>()).add(contact);
+        System.out.println("Контакт добавлен.");
     }
 
     public void deleteContact() {
