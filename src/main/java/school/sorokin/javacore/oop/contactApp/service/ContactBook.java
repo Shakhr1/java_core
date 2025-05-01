@@ -48,6 +48,49 @@ public class ContactBook {
     }
 
     public void deleteContact() {
+        if (contactList.isEmpty()) {
+            System.out.println("Список контактов пуст!");
+            return;
+        }
+        System.out.print("Введите имя контакта для удаления: ");
+        String nameToDelete = scanner.nextLine().trim();
+
+        boolean isRemoved = false;
+
+        Iterator<Contact> iterator = contactList.iterator();
+        while (iterator.hasNext()) {
+            Contact contact = iterator.next();
+            if (contact.getName().equals(nameToDelete)) {
+                iterator.remove();
+                isRemoved = true;
+                break;
+            }
+        }
+
+        if (isRemoved) {
+            Iterator<Contact> setIterator = contactSet.iterator();
+            while (setIterator.hasNext()) {
+                Contact contact = setIterator.next();
+                if (contact.getName().equals(nameToDelete)) {
+                    setIterator.remove();
+                    break;
+                }
+            }
+
+            for (List<Contact> groupContact : groupMap.values()) {
+                Iterator<Contact> groupIterator = groupContact.iterator();
+                while (groupIterator.hasNext()) {
+                    Contact contact = groupIterator.next();
+                    if (contact.getName().equals(nameToDelete)) {
+                        groupIterator.remove();
+                        break;
+                    }
+                }
+            }
+            System.out.println("Контакт '" + nameToDelete + "' успешно удален!");
+        } else {
+            System.out.println("Контакт с именем '" + nameToDelete + "' не найден.");
+        }
     }
 
     public void viewAllContact() {
