@@ -1,5 +1,6 @@
 package school.sorokin.javacore.oop.contactApp.service;
 
+import school.sorokin.javacore.oop.contactApp.exception.ContactNotFoundException;
 import school.sorokin.javacore.oop.contactApp.exception.DuplicateContactException;
 import school.sorokin.javacore.oop.contactApp.model.Contact;
 
@@ -10,6 +11,8 @@ public class ContactBook {
     private final List<Contact> contactList;
     private final Set<Contact> contactSet;
     private final Map<String, List<Contact>> groupMap;
+    private final static String CONTACT_IS_EMPTY = "Список контактов пуст!";
+    private final static String INVALID_DATA = "Данные введены некорректно";
 
     public ContactBook() {
         scanner = new Scanner(System.in);
@@ -19,15 +22,29 @@ public class ContactBook {
     }
 
     public void writeNewContact() {
-        System.out.print("Введите имя и фамилию: ");
+        System.out.print("Введите имя: ");
         String name = scanner.nextLine().trim();
-        System.out.print("Введите телефон: ");
-        String phone = scanner.nextLine().trim();
+
+        if (name.isEmpty()) {
+            System.out.println(INVALID_DATA);
+            return;
+        }
+
+        int phone = 0;
+
+        try {
+            System.out.print("Введите телефон: ");
+            phone = Integer.parseInt(scanner.nextLine().trim());
+        } catch (NumberFormatException e) {
+            System.out.println("Ожидалось целое число!");
+            return;
+        }
+
         System.out.print("Введите эл.почту: ");
         String email = scanner.nextLine().trim();
         System.out.print("Введите группу (Работа, Друзья, Семья): ");
         String group = scanner.nextLine().trim();
-        addContact(new Contact(name, phone, email, group));
+        addContact(new Contact(name, String.valueOf(phone), email, group));
     }
 
     private void addContact(Contact contact) {
@@ -49,7 +66,7 @@ public class ContactBook {
 
     public void deleteContact() {
         if (contactList.isEmpty()) {
-            System.out.println("Список контактов пуст!");
+            System.out.println(CONTACT_IS_EMPTY);
             return;
         }
         System.out.print("Введите имя контакта для удаления: ");
@@ -95,24 +112,60 @@ public class ContactBook {
 
     public void viewAllContact() {
         if (contactList.isEmpty()) {
-            System.out.println("Контактов нет.");
+            System.out.println(CONTACT_IS_EMPTY);
             return;
         }
-        for (Contact contact : contactList) {
+        Iterator<Contact> iterator = contactList.iterator();
+        while (iterator.hasNext()) {
+            Contact contact = iterator.next();
             System.out.println(contact);
         }
     }
 
     public void findContact() {
+        if (contactList.isEmpty()) {
+            System.out.println(CONTACT_IS_EMPTY);
+            return;
+        }
+        try {
+            System.out.print("Введите имя для поиска: ");
+            String nameToSearch = scanner.nextLine().trim();
+
+            boolean isFound = false;
+            Iterator<Contact> iterator = contactList.iterator();
+
+            while (iterator.hasNext()) {
+                Contact contact = iterator.next();
+                if (contact.getName().equals(nameToSearch)) {
+                    System.out.println("Найден контакт: " + contact);
+                    isFound = true;
+                }
+            }
+            if (!isFound) {
+                throw new ContactNotFoundException("Контакт с именем '" + nameToSearch + "' не найден.");
+            }
+        } catch (ContactNotFoundException e) {
+            System.out.println(e.getMessage());
+        }
     }
 
     public void getContactsByGroup() {
-        if (groupMap.isEmpty()) {
-            System.out.println("Список контактов пуст!");
+        if (contactList.isEmpty()) {
+            System.out.println(CONTACT_IS_EMPTY);
             return;
         }
         System.out.print("Введите название группы: ");
         String group = scanner.nextLine().trim();
+
+        try {
+            if (!groupMap.containsKey(group)) {
+                throw new ContactNotFoundException("Такой группы нет!");
+            }
+        } catch (ContactNotFoundException e) {
+            System.out.println(e.getMessage());
+            return;
+        }
+
         System.out.println("Контакты в группе -> " + group);
         for (Contact contact : groupMap.get(group)) {
             System.out.println(contact);
