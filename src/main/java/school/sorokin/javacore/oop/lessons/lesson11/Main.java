@@ -12,7 +12,7 @@ public class Main {
                 new User("Бэн", 25),
                 new User("Шарлот", 35),
                 new User("Алиса", 30),
-                new User("Давид", 20)
+                new User("Давид", 26)
         );
 
         List<String> result = users.stream()
