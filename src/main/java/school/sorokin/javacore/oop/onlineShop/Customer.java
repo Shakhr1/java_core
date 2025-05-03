@@ -30,5 +30,14 @@ public class Customer {
     public Set<Order> getOrders() {
         return orders;
     }
-//constructor, getters
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+               "id=" + id +
+               ", name='" + name + '\'' +
+               ", level=" + level +
+               ", orders=" + orders +
+               '}';
+    }
 }
