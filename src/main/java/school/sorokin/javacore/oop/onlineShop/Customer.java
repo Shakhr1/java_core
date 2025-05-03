@@ -33,11 +33,11 @@ public class Customer {
 
     @Override
     public String toString() {
-        return "Customer{" +
-               "id=" + id +
-               ", name='" + name + '\'' +
-               ", level=" + level +
-               ", orders=" + orders +
-               '}';
+        return "Клиент(" +
+               "ID:" + id +
+               ", Имя:'" + name + '\'' +
+               ", Level:" + level +
+               ", Заказ:" + orders +
+               ')';
     }
 }
