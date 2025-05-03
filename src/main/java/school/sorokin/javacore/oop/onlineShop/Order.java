@@ -40,12 +40,12 @@ public class Order {
 
     @Override
     public String toString() {
-        return "Order{" +
-               "id=" + id +
-               ", orderDate=" + orderDate +
-               ", deliveryDate=" + deliveryDate +
-               ", status='" + status + '\'' +
-               ", products=" + products +
-               '}';
+        return "Заказ(" +
+               "ID:" + id +
+               ", Дата заказа:" + orderDate +
+               ", Дата доставки:" + deliveryDate +
+               ", Статус:'" + status + '\'' +
+               ", Товары:" + products +
+               ')';
     }
 }
