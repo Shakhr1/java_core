@@ -3,12 +3,17 @@ package school.sorokin.javacore.basics.finalapp;
 import java.util.Scanner;
 
 public class UserBase {
-    Scanner scanner = new Scanner(System.in);
+    private final Scanner scanner;
+    private final int[] phoneNumbers;
+    private final String[] people;
+    private int currentContact;
 
-    int[] phoneNumbers = new int[10];
-    String[] people = new String[10];
-    int currentContact = 0;
-
+    public UserBase() {
+        scanner = new Scanner(System.in);
+        phoneNumbers = new int[10];
+        people = new String[10];
+        currentContact = 0;
+    }
     public void addContact() {
         String name;
         if (currentContact >= phoneNumbers.length) {
@@ -17,7 +22,7 @@ public class UserBase {
         }
 
         while (true) {
-            System.out.println("Введите имя:");
+            System.out.print("Введите имя: ");
             name = scanner.nextLine().trim();
 
             if (name.isEmpty()) {
@@ -39,7 +44,7 @@ public class UserBase {
             }
         }
 
-        System.out.println("Введите номер телефона:");
+        System.out.print("Введите номер телефона: ");
         while (!scanner.hasNextInt()) {
             System.out.println("Ошибка! Введите целое число.");
             scanner.next();
@@ -57,10 +62,10 @@ public class UserBase {
 
     public void findContact() {
         if (people == null || currentContact == 0) {
-            System.out.println("Список контактов отсутствует");
+            System.out.println("Список контактов отсутствует.");
             return;
         }
-        System.out.println("Имя для поиска: ");
+        System.out.print("Имя для поиска: ");
         String searchName = scanner.nextLine();
 
         boolean found = false;
@@ -77,17 +82,17 @@ public class UserBase {
         if (found) {
             System.out.println("Телефон " + people[contactIndex] + ": " + phoneNumbers[contactIndex]);
         } else {
-            System.out.println("Контакт не найден");
+            System.out.println("Контакт не найден.");
         }
     }
 
     public void deleteContact() {
         if (currentContact == 0) {
-            System.out.println("Список контактов отсутствует");
+            System.out.println("Список контактов отсутствует.");
             return;
         }
 
-        System.out.println("Имя контакта для удаления: ");
+        System.out.print("Имя контакта для удаления: ");
         String nameToDelete = scanner.nextLine().trim();
 
         boolean found = false;
@@ -107,7 +112,7 @@ public class UserBase {
         }
 
         if (!found) {
-            System.out.println("Контакт не найден");
+            System.out.println("Контакт не найден.");
         }
     }
 
