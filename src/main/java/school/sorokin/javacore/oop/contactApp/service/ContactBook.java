@@ -11,8 +11,8 @@ public class ContactBook {
     private final List<Contact> contactList;
     private final Set<Contact> contactSet;
     private final Map<String, List<Contact>> groupMap;
-    private final static String CONTACT_IS_EMPTY = "Список контактов пуст!";
-    private final static String INVALID_DATA = "Данные введены некорректно";
+    private static final String CONTACT_IS_EMPTY = "Список контактов пуст!";
+    private static final String INVALID_DATA = "Данные введены некорректно";
 
     public ContactBook() {
         scanner = new Scanner(System.in);
@@ -30,7 +30,7 @@ public class ContactBook {
             return;
         }
 
-        int phone = 0;
+        int phone;
 
         try {
             System.out.print("Введите телефон: ");
