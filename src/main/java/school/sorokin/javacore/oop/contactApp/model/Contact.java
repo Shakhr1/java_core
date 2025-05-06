@@ -4,37 +4,33 @@ import java.util.Objects;
 
 public class Contact {
     private String name;
-    private int number;
+    private String phone;
     private String email;
     private String group;
 
-    public Contact(String name, int number, String email, String group) {
+    public Contact(String name, String phone, String email, String group) {
         this.name = name;
-        this.number = number;
+        this.phone = phone;
         this.email = email;
         this.group = group;
     }
 
     @Override
+    public String toString() {
+        return name + " | Телефон: " + phone + " | Email: " + email + " | Группа: " + group;
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Contact contact)) return false;
-        return number == contact.number && Objects.equals(name, contact.name);
+        if (o == null || getClass() != o.getClass()) return false;
+        Contact contact = (Contact) o;
+        return Objects.equals(name, contact.name) && Objects.equals(phone, contact.phone);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, number);
-    }
-
-    @Override
-    public String toString() {
-        return "Contact{" +
-               "name='" + name + '\'' +
-               ", number=" + number +
-               ", email='" + email + '\'' +
-               ", group='" + group + '\'' +
-               '}';
+        return Objects.hash(name.toLowerCase(), phone);
     }
 
     public String getName() {
@@ -45,12 +41,12 @@ public class Contact {
         this.name = name;
     }
 
-    public int getNumber() {
-        return number;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setNumber(int number) {
-        this.number = number;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getEmail() {
@@ -68,5 +64,4 @@ public class Contact {
     public void setGroup(String group) {
         this.group = group;
     }
-
 }
