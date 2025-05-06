@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4aa57723-9c1c-4e49-ad1f-8049f0679ef8" name="Changes" comment="upd class after code review" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="online-shop" />
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="homework-branch" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="shop-online" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Shakhr1&quot;
+  }
+}</component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="8c2f860b7560650d80db159b12c688f824ed1ef5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Shakhr1/java_core.git&quot;,
+    &quot;accountId&quot;: &quot;54cbbe90-83df-404d-9def-d63832aeaaa4&quot;
+  },
+  &quot;editorReviewEnabled&quot;: false
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2vhPvhf1aORgUUQcd3iQMBGawUl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArraysLesson.executor": "Run",
+    "Application.CyclesLesson.executor": "Run",
+    "Application.ExceptionTest.executor": "Run",
+    "Application.ExceptionsLesson.executor": "Run",
+    "Application.IteratorLesson.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.OperatorsLesson.executor": "Run",
+    "Application.StringLesson.executor": "Run",
+    "Application.VariablesLesson.executor": "Run",
+    "Application.ifElseLesson.executor": "Run",
+    "Application.school.sorokin.javacore.basics.oop.Main.executor": "Run",
+    "Application.school.sorokin.javacore.basics.oop.lesson2.Main.executor": "Run",
+    "Application.school.sorokin.javacore.basics.oop.lesson3.Main.executor": "Run",
+    "Application.school.sorokin.javacore.basics.oop.lesson4.Main.executor": "Run",
+    "Application.school.sorokin.javacore.oop.finalproject.Main.executor": "Run",
+    "Application.school.sorokin.javacore.oop.lessons.lesson10.Main.executor": "Run",
+    "Application.school.sorokin.javacore.oop.lessons.lesson11.Main.executor": "Run",
+    "Application.school.sorokin.javacore.oop.lessons.lesson12.Main.executor": "Run",
+    "Application.school.sorokin.javacore.oop.lessons.lesson9.Main.executor": "Run",
+    "Application.school.sorokin.javacore.oop.library.Main.executor": "Run",
+    "Application.school.sorokin.javacore.oop.libraryApp.Main.executor": "Run",
+    "Application.school.sorokin.javacore.oop.onlineShop.Main.executor": "Run",
+    "JUnit.CalculatorTest.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "online-shop",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.splitter.proportion": "0.24872579",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="IteratorLesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.oop.lesson8.IteratorLesson" />
+      <module name="JavaCoreTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="school.sorokin.javacore.oop.lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.oop.contactApp.Main" />
+      <module name="JavaCoreTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="school.sorokin.javacore.oop.contactApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringLesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.basics.StringLesson" />
+      <module name="JavaCoreTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="school.sorokin.javacore.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="school.sorokin.javacore.basics.oop.lesson3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.basics.oop.lesson3.Main" />
+      <module name="JavaCoreTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="school.sorokin.javacore.basics.oop.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="school.sorokin.javacore.basics.oop.lesson4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.basics.oop.lesson4.Main" />
+      <module name="JavaCoreTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="school.sorokin.javacore.basics.oop.lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StringLesson" />
+        <item itemvalue="Application.school.sorokin.javacore.basics.oop.lesson4.Main" />
+        <item itemvalue="Application.school.sorokin.javacore.basics.oop.lesson3.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.IteratorLesson" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4aa57723-9c1c-4e49-ad1f-8049f0679ef8" name="Changes" comment="" />
+      <created>1744594567685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744594567685</updated>
+      <workItem from="1744594568976" duration="3152000" />
+      <workItem from="1744597873202" duration="2178000" />
+      <workItem from="1744640920896" duration="2618000" />
+      <workItem from="1744703443126" duration="1342000" />
+      <workItem from="1744730468922" duration="3061000" />
+      <workItem from="1744865347278" duration="280000" />
+      <workItem from="1744865635038" duration="5583000" />
+      <workItem from="1744874315620" duration="398000" />
+      <workItem from="1744874723725" duration="2557000" />
+      <workItem from="1744877748232" duration="626000" />
+      <workItem from="1744882072091" duration="9951000" />
+      <workItem from="1744908872341" duration="5961000" />
+      <workItem from="1744966503687" duration="2840000" />
+      <workItem from="1744987507090" duration="866000" />
+      <workItem from="1745046340228" duration="2685000" />
+      <workItem from="1745177993667" duration="4624000" />
+      <workItem from="1745182641307" duration="4757000" />
+      <workItem from="1745236314971" duration="21957000" />
+      <workItem from="1745260990013" duration="57000" />
+      <workItem from="1745265873549" duration="1002000" />
+      <workItem from="1745416713580" duration="8146000" />
+      <workItem from="1745523186728" duration="9799000" />
+      <workItem from="1745579625358" duration="8832000" />
+      <workItem from="1745674641053" duration="3580000" />
+      <workItem from="1745768439040" duration="2700000" />
+      <workItem from="1745772235436" duration="402000" />
+      <workItem from="1745865662422" duration="2147000" />
+      <workItem from="1745882065385" duration="4932000" />
+      <workItem from="1745958283633" duration="1386000" />
+      <workItem from="1746030211534" duration="3793000" />
+      <workItem from="1746083987742" duration="5021000" />
+      <workItem from="1746089033749" duration="4765000" />
+      <workItem from="1746208084367" duration="11765000" />
+      <workItem from="1746241213735" duration="3896000" />
+      <workItem from="1746289382217" duration="8762000" />
+      <workItem from="1746310133828" duration="223000" />
+      <workItem from="1746310363481" duration="711000" />
+      <workItem from="1746311084645" duration="77000" />
+      <workItem from="1746311212948" duration="319000" />
+      <workItem from="1746311541575" duration="141000" />
+      <workItem from="1746311689260" duration="619000" />
+      <workItem from="1746316760487" duration="282000" />
+      <workItem from="1746377948332" duration="1615000" />
+      <workItem from="1746379873489" duration="2315000" />
+      <workItem from="1746463437233" duration="241000" />
+      <workItem from="1746463685989" duration="604000" />
+      <workItem from="1746464443938" duration="19000" />
+      <workItem from="1746464467709" duration="43000" />
+      <workItem from="1746464517226" duration="321000" />
+      <workItem from="1746464842975" duration="155000" />
+      <workItem from="1746465006351" duration="226000" />
+      <workItem from="1746465238790" duration="153000" />
+      <workItem from="1746465402537" duration="8000" />
+      <workItem from="1746465416544" duration="1028000" />
+      <workItem from="1746558890996" duration="88000" />
+      <workItem from="1746559046813" duration="13000" />
+      <workItem from="1746559066310" duration="149000" />
+      <workItem from="1746559225387" duration="358000" />
+      <workItem from="1746559633468" duration="221000" />
+      <workItem from="1746559880861" duration="23000" />
+      <workItem from="1746560257840" duration="345000" />
+    </task>
+    <task id="LOCAL-00033" summary="add: exception class">
+      <option name="closed" value="true" />
+      <created>1745522779577</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1745522779577</updated>
+    </task>
+    <task id="LOCAL-00034" summary="fix по ревью">
+      <option name="closed" value="true" />
+      <created>1745524882828</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1745524882828</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add: exception not found">
+      <option name="closed" value="true" />
+      <created>1745536380089</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1745536380089</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add: upd class Main">
+      <option name="closed" value="true" />
+      <created>1745581845991</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1745581845991</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add: upd class Book">
+      <option name="closed" value="true" />
+      <created>1745581925205</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1745581925205</updated>
+    </task>
+    <task id="LOCAL-00038" summary="second upd classes Book and Library">
+      <option name="closed" value="true" />
+      <created>1745587570537</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1745587570537</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add: new exception">
+      <option name="closed" value="true" />
+      <created>1745588386810</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1745588386810</updated>
+    </task>
+    <task id="LOCAL-00040" summary="add: contact not found exception">
+      <option name="closed" value="true" />
+      <created>1745675676344</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1745675676344</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add: duplicate contact exception">
+      <option name="closed" value="true" />
+      <created>1745676097814</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1745676097814</updated>
+    </task>
+    <task id="LOCAL-00042" summary="fix">
+      <option name="closed" value="true" />
+      <created>1745679210115</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1745679210115</updated>
+    </task>
+    <task id="LOCAL-00043" summary="test exception">
+      <option name="closed" value="true" />
+      <created>1745679457596</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1745679457596</updated>
+    </task>
+    <task id="LOCAL-00044" summary="test exception">
+      <option name="closed" value="true" />
+      <created>1745679556149</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1745679556149</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fix bugs">
+      <option name="closed" value="true" />
+      <created>1745769294859</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1745769294859</updated>
+    </task>
+    <task id="LOCAL-00046" summary="fix bugs pt2">
+      <option name="closed" value="true" />
+      <created>1745769435777</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1745769435777</updated>
+    </task>
+    <task id="LOCAL-00047" summary="test Iterator">
+      <option name="closed" value="true" />
+      <created>1745772099796</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1745772099796</updated>
+    </task>
+    <task id="LOCAL-00048" summary="fix packages">
+      <option name="closed" value="true" />
+      <created>1745772345130</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1745772345130</updated>
+    </task>
+    <task id="LOCAL-00049" summary="test iter">
+      <option name="closed" value="true" />
+      <created>1745772615233</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1745772615233</updated>
+    </task>
+    <task id="LOCAL-00050" summary="add: contact contactBook main">
+      <option name="closed" value="true" />
+      <created>1745883355776</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1745883355776</updated>
+    </task>
+    <task id="LOCAL-00051" summary="fix: main">
+      <option name="closed" value="true" />
+      <created>1745885139260</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1745885139260</updated>
+    </task>
+    <task id="LOCAL-00052" summary="add: class ContactBook">
+      <option name="closed" value="true" />
+      <created>1745958423079</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1745958423080</updated>
+    </task>
+    <task id="LOCAL-00053" summary="code review">
+      <option name="closed" value="true" />
+      <created>1745958678174</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1745958678174</updated>
+    </task>
+    <task id="LOCAL-00054" summary="code review">
+      <option name="closed" value="true" />
+      <created>1745958877659</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1745958877659</updated>
+    </task>
+    <task id="LOCAL-00055" summary="code review">
+      <option name="closed" value="true" />
+      <created>1745959052812</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1745959052813</updated>
+    </task>
+    <task id="LOCAL-00056" summary="code review">
+      <option name="closed" value="true" />
+      <created>1745959232441</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1745959232442</updated>
+    </task>
+    <task id="LOCAL-00057" summary="code review">
+      <option name="closed" value="true" />
+      <created>1745959348773</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1745959348773</updated>
+    </task>
+    <task id="LOCAL-00058" summary="code review">
+      <option name="closed" value="true" />
+      <created>1745959363175</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1745959363175</updated>
+    </task>
+    <task id="LOCAL-00059" summary="code review">
+      <option name="closed" value="true" />
+      <created>1745959387440</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1745959387440</updated>
+    </task>
+    <task id="LOCAL-00060" summary="code review">
+      <option name="closed" value="true" />
+      <created>1745959420316</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1745959420316</updated>
+    </task>
+    <task id="LOCAL-00061" summary="code review">
+      <option name="closed" value="true" />
+      <created>1745959449860</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1745959449860</updated>
+    </task>
+    <task id="LOCAL-00062" summary="code review">
+      <option name="closed" value="true" />
+      <created>1745959649071</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1745959649071</updated>
+    </task>
+    <task id="LOCAL-00063" summary="code review">
+      <option name="closed" value="true" />
+      <created>1745959666597</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1745959666597</updated>
+    </task>
+    <task id="LOCAL-00064" summary="code review">
+      <option name="closed" value="true" />
+      <created>1746030464701</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1746030464701</updated>
+    </task>
+    <task id="LOCAL-00065" summary="upd: contact toString">
+      <option name="closed" value="true" />
+      <created>1746033527809</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1746033527809</updated>
+    </task>
+    <task id="LOCAL-00066" summary="upd: contact toString">
+      <option name="closed" value="true" />
+      <created>1746033533259</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1746033533259</updated>
+    </task>
+    <task id="LOCAL-00067" summary="add: in contactBook method viewAllContact">
+      <option name="closed" value="true" />
+      <created>1746034002857</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1746034002857</updated>
+    </task>
+    <task id="LOCAL-00068" summary="add: method delete">
+      <option name="closed" value="true" />
+      <created>1746085154483</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1746085154483</updated>
+    </task>
+    <task id="LOCAL-00069" summary="fix: some bugs and improved methods">
+      <option name="closed" value="true" />
+      <created>1746088743081</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1746088743081</updated>
+    </task>
+    <task id="LOCAL-00070" summary="test stream api">
+      <option name="closed" value="true" />
+      <created>1746115683248</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1746115683249</updated>
+    </task>
+    <task id="LOCAL-00071" summary="test stream api">
+      <option name="closed" value="true" />
+      <created>1746120948857</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1746120948857</updated>
+    </task>
+    <task id="LOCAL-00072" summary="test stream api">
+      <option name="closed" value="true" />
+      <created>1746210094475</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1746210094476</updated>
+    </task>
+    <task id="LOCAL-00073" summary="test stream api">
+      <option name="closed" value="true" />
+      <created>1746212274028</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1746212274028</updated>
+    </task>
+    <task id="LOCAL-00074" summary="test stream api">
+      <option name="closed" value="true" />
+      <created>1746223500025</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1746223500026</updated>
+    </task>
+    <task id="LOCAL-00075" summary="test stream api">
+      <option name="closed" value="true" />
+      <created>1746224762553</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1746224762553</updated>
+    </task>
+    <task id="LOCAL-00076" summary="add: customer order prod">
+      <option name="closed" value="true" />
+      <created>1746233702214</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1746233702214</updated>
+    </task>
+    <task id="LOCAL-00077" summary="upd some methods">
+      <option name="closed" value="true" />
+      <created>1746245096836</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1746245096836</updated>
+    </task>
+    <task id="LOCAL-00078" summary="fix and upd tasks">
+      <option name="closed" value="true" />
+      <created>1746308264867</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1746308264867</updated>
+    </task>
+    <task id="LOCAL-00079" summary="fix and upd tasks">
+      <option name="closed" value="true" />
+      <created>1746312304719</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1746312304720</updated>
+    </task>
+    <task id="LOCAL-00080" summary="fix and upd tasks">
+      <option name="closed" value="true" />
+      <created>1746379890581</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1746379890581</updated>
+    </task>
+    <task id="LOCAL-00081" summary="upd class after code review">
+      <option name="closed" value="true" />
+      <created>1746434242949</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1746434242949</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="online-shop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second upd classes Book and Library" />
+    <MESSAGE value="add: new exception" />
+    <MESSAGE value="add: contact not found exception" />
+    <MESSAGE value="add: duplicate contact exception" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="homework" />
+    <MESSAGE value="test exception" />
+    <MESSAGE value="fix bugs" />
+    <MESSAGE value="fix bugs pt2" />
+    <MESSAGE value="test Iterator" />
+    <MESSAGE value="fix packages" />
+    <MESSAGE value="test iter" />
+    <MESSAGE value="add: contact contactBook main" />
+    <MESSAGE value="fix: main" />
+    <MESSAGE value="add: class ContactBook" />
+    <MESSAGE value="code review" />
+    <MESSAGE value="upd: contact toString" />
+    <MESSAGE value="add: in contactBook method viewAllContact" />
+    <MESSAGE value="add: method delete" />
+    <MESSAGE value="fix: some bugs and improved methods" />
+    <MESSAGE value="test stream api" />
+    <MESSAGE value="add: customer order prod" />
+    <MESSAGE value="upd some methods" />
+    <MESSAGE value="fix and upd tasks" />
+    <MESSAGE value="upd class after code review" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd class after code review" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.Throwable" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
