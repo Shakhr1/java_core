@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aa57723-9c1c-4e49-ad1f-8049f0679ef8" name="Changes" comment="add file idea">
-      <change beforePath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/oop/onlineShop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/oop/onlineShop/Main.java" afterDir="false" />
+    <list default="true" id="4aa57723-9c1c-4e49-ad1f-8049f0679ef8" name="Changes" comment="final project &quot;testing&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/oop/lessons/reflec/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/oop/lessons/reflec/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -82,6 +85,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArraysLesson.executor": "Run",
+    "Application.Calculator.executor": "Run",
     "Application.CyclesLesson.executor": "Run",
     "Application.ExceptionTest.executor": "Run",
     "Application.ExceptionsLesson.executor": "Run",
@@ -100,6 +104,7 @@
     "Application.school.sorokin.javacore.oop.lessons.lesson11.Main.executor": "Run",
     "Application.school.sorokin.javacore.oop.lessons.lesson12.Main.executor": "Run",
     "Application.school.sorokin.javacore.oop.lessons.lesson9.Main.executor": "Run",
+    "Application.school.sorokin.javacore.oop.lessons.reflec.Main.executor": "Run",
     "Application.school.sorokin.javacore.oop.library.Main.executor": "Run",
     "Application.school.sorokin.javacore.oop.libraryApp.Main.executor": "Run",
     "Application.school.sorokin.javacore.oop.onlineShop.Main.executor": "Run",
@@ -107,7 +112,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#6 on online-shop",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -122,7 +127,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.school.sorokin.javacore.oop.onlineShop.Main">
+  <component name="RunManager" selected="Application.school.sorokin.javacore.oop.lessons.reflec.Main">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.oop.lessons.Calculator" />
+      <module name="JavaCoreTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="school.sorokin.javacore.oop.lessons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.oop.contactApp.Main" />
       <module name="JavaCoreTasks" />
@@ -149,25 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="school.sorokin.javacore.basics.oop.lesson3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.basics.oop.lesson3.Main" />
+    <configuration name="school.sorokin.javacore.oop.lessons.reflec.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.oop.lessons.reflec.Main" />
       <module name="JavaCoreTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="school.sorokin.javacore.basics.oop.lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="school.sorokin.javacore.basics.oop.lesson4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.basics.oop.lesson4.Main" />
-      <module name="JavaCoreTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="school.sorokin.javacore.basics.oop.lesson4.*" />
+          <option name="PATTERN" value="school.sorokin.javacore.oop.lessons.reflec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.school.sorokin.javacore.oop.lessons.reflec.Main" />
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.school.sorokin.javacore.oop.onlineShop.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.StringLesson" />
-        <item itemvalue="Application.school.sorokin.javacore.basics.oop.lesson4.Main" />
-        <item itemvalue="Application.school.sorokin.javacore.basics.oop.lesson3.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -703,7 +708,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add: new exception" />
     <MESSAGE value="add: contact not found exception" />
     <MESSAGE value="add: duplicate contact exception" />
     <MESSAGE value="fix" />
@@ -728,7 +732,8 @@
     <MESSAGE value="fix and upd tasks" />
     <MESSAGE value="upd class after code review" />
     <MESSAGE value="add file idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="add file idea" />
+    <MESSAGE value="final project &quot;testing&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="final project &quot;testing&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
