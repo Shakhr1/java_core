@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aa57723-9c1c-4e49-ad1f-8049f0679ef8" name="Changes" comment="final project &quot;testing&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/oop/lessons/reflec/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/oop/lessons/reflec/Person.java" afterDir="false" />
+    <list default="true" id="4aa57723-9c1c-4e49-ad1f-8049f0679ef8" name="Changes" comment="add file idea">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/oop/lessons/reflec/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/oop/lessons/reflec/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/oop/lessons/reflec/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/oop/lessons/reflec/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,51 +82,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArraysLesson.executor": "Run",
-    "Application.Calculator.executor": "Run",
-    "Application.CyclesLesson.executor": "Run",
-    "Application.ExceptionTest.executor": "Run",
-    "Application.ExceptionsLesson.executor": "Run",
-    "Application.IteratorLesson.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.OperatorsLesson.executor": "Run",
-    "Application.StringLesson.executor": "Run",
-    "Application.VariablesLesson.executor": "Run",
-    "Application.ifElseLesson.executor": "Run",
-    "Application.school.sorokin.javacore.basics.oop.Main.executor": "Run",
-    "Application.school.sorokin.javacore.basics.oop.lesson2.Main.executor": "Run",
-    "Application.school.sorokin.javacore.basics.oop.lesson3.Main.executor": "Run",
-    "Application.school.sorokin.javacore.basics.oop.lesson4.Main.executor": "Run",
-    "Application.school.sorokin.javacore.oop.finalproject.Main.executor": "Run",
-    "Application.school.sorokin.javacore.oop.lessons.lesson10.Main.executor": "Run",
-    "Application.school.sorokin.javacore.oop.lessons.lesson11.Main.executor": "Run",
-    "Application.school.sorokin.javacore.oop.lessons.lesson12.Main.executor": "Run",
-    "Application.school.sorokin.javacore.oop.lessons.lesson9.Main.executor": "Run",
-    "Application.school.sorokin.javacore.oop.lessons.reflec.Main.executor": "Run",
-    "Application.school.sorokin.javacore.oop.library.Main.executor": "Run",
-    "Application.school.sorokin.javacore.oop.libraryApp.Main.executor": "Run",
-    "Application.school.sorokin.javacore.oop.onlineShop.Main.executor": "Run",
-    "JUnit.CalculatorTest.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "settings.editor.splitter.proportion": "0.24872579",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArraysLesson.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CyclesLesson.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExceptionsLesson.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IteratorLesson.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OperatorsLesson.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringLesson.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VariablesLesson.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ifElseLesson.executor&quot;: &quot;Run&quot;,
+    &quot;Application.school.sorokin.javacore.basics.oop.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.school.sorokin.javacore.basics.oop.lesson2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.school.sorokin.javacore.basics.oop.lesson3.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.school.sorokin.javacore.basics.oop.lesson4.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.school.sorokin.javacore.oop.finalproject.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.school.sorokin.javacore.oop.lessons.lesson10.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.school.sorokin.javacore.oop.lessons.lesson11.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.school.sorokin.javacore.oop.lessons.lesson12.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.school.sorokin.javacore.oop.lessons.lesson9.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.school.sorokin.javacore.oop.lessons.reflec.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.school.sorokin.javacore.oop.library.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.school.sorokin.javacore.oop.libraryApp.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.school.sorokin.javacore.oop.onlineShop.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.24872579&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.school.sorokin.javacore.oop.lessons.reflec.Main">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.oop.lessons.Calculator" />
@@ -280,14 +280,7 @@
       <workItem from="1746559633468" duration="221000" />
       <workItem from="1746559880861" duration="23000" />
       <workItem from="1746560257840" duration="345000" />
-    </task>
-    <task id="LOCAL-00033" summary="add: exception class">
-      <option name="closed" value="true" />
-      <created>1745522779577</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1745522779577</updated>
+      <workItem from="1746724638342" duration="3790000" />
     </task>
     <task id="LOCAL-00034" summary="fix по ревью">
       <option name="closed" value="true" />
@@ -673,7 +666,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746434242949</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="add file idea">
+      <option name="closed" value="true" />
+      <created>1746679927372</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1746679927373</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -731,9 +732,9 @@
     <MESSAGE value="upd some methods" />
     <MESSAGE value="fix and upd tasks" />
     <MESSAGE value="upd class after code review" />
-    <MESSAGE value="add file idea" />
     <MESSAGE value="final project &quot;testing&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="final project &quot;testing&quot;" />
+    <MESSAGE value="add file idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="add file idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

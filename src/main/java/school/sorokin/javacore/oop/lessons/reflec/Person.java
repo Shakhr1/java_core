@@ -17,7 +17,16 @@ public class Person {
         this.age = age;
     }
 
-    void sayHello() {
-        System.out.println("Hello " + name);
+    private Person() {
+        this.name = "private name";
+        this.age = -0;
+    }
+
+    public void sayHello(String name) {
+        System.out.println("public: Hello " + name);
+    }
+
+    private void sayHelloPrivate(String name) {
+        System.out.println("private: Hello " + name);
     }
 }
