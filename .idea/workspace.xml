@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aa57723-9c1c-4e49-ad1f-8049f0679ef8" name="Changes" comment="add file idea">
+    <list default="true" id="4aa57723-9c1c-4e49-ad1f-8049f0679ef8" name="Changes" comment="reflection tasks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/oop/lessons/thread/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/oop/lessons/reflec/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/oop/lessons/reflec/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/oop/lessons/reflec/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/school/sorokin/javacore/oop/lessons/reflec/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +104,7 @@
     &quot;Application.school.sorokin.javacore.oop.lessons.lesson12.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.school.sorokin.javacore.oop.lessons.lesson9.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.school.sorokin.javacore.oop.lessons.reflec.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.school.sorokin.javacore.oop.lessons.thread.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.school.sorokin.javacore.oop.library.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.school.sorokin.javacore.oop.libraryApp.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.school.sorokin.javacore.oop.onlineShop.Main.executor&quot;: &quot;Run&quot;,
@@ -127,7 +127,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.school.sorokin.javacore.oop.lessons.reflec.Main">
+  <component name="RunManager" selected="Application.school.sorokin.javacore.oop.lessons.thread.Main">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.oop.lessons.Calculator" />
       <module name="JavaCoreTasks" />
@@ -154,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringLesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.basics.StringLesson" />
+    <configuration name="school.sorokin.javacore.oop.lessons.reflec.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.oop.lessons.reflec.Main" />
       <module name="JavaCoreTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="school.sorokin.javacore.basics.*" />
+          <option name="PATTERN" value="school.sorokin.javacore.oop.lessons.reflec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="school.sorokin.javacore.oop.lessons.reflec.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.oop.lessons.reflec.Main" />
+    <configuration name="school.sorokin.javacore.oop.lessons.thread.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="school.sorokin.javacore.oop.lessons.thread.Main" />
       <module name="JavaCoreTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="school.sorokin.javacore.oop.lessons.reflec.*" />
+          <option name="PATTERN" value="school.sorokin.javacore.oop.lessons.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.school.sorokin.javacore.oop.lessons.thread.Main" />
         <item itemvalue="Application.school.sorokin.javacore.oop.lessons.reflec.Main" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.school.sorokin.javacore.oop.onlineShop.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StringLesson" />
       </list>
     </recent_temporary>
   </component>
@@ -280,15 +280,8 @@
       <workItem from="1746559633468" duration="221000" />
       <workItem from="1746559880861" duration="23000" />
       <workItem from="1746560257840" duration="345000" />
-      <workItem from="1746724638342" duration="3790000" />
-    </task>
-    <task id="LOCAL-00034" summary="fix по ревью">
-      <option name="closed" value="true" />
-      <created>1745524882828</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1745524882828</updated>
+      <workItem from="1746724638342" duration="5510000" />
+      <workItem from="1746894248486" duration="357000" />
     </task>
     <task id="LOCAL-00035" summary="add: exception not found">
       <option name="closed" value="true" />
@@ -674,7 +667,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746679927373</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="reflection tasks">
+      <option name="closed" value="true" />
+      <created>1746807144622</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1746807144622</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -709,7 +710,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add: contact not found exception" />
     <MESSAGE value="add: duplicate contact exception" />
     <MESSAGE value="fix" />
     <MESSAGE value="homework" />
@@ -734,7 +734,8 @@
     <MESSAGE value="upd class after code review" />
     <MESSAGE value="final project &quot;testing&quot;" />
     <MESSAGE value="add file idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="add file idea" />
+    <MESSAGE value="reflection tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="reflection tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
