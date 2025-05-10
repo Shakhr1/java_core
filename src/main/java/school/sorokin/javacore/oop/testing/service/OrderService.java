@@ -1,5 +1,6 @@
 package school.sorokin.javacore.oop.testing.service;
 
+import school.sorokin.javacore.oop.testing.exception.OrderNotFoundException;
 import school.sorokin.javacore.oop.testing.model.Order;
 import school.sorokin.javacore.oop.testing.repository.OrderRepository;
 
@@ -20,6 +21,7 @@ public class OrderService {
 
     public double calculateTotal(int id) {
         Optional<Order> optional = orderRepository.getOrderById(id);
-        return optional.map(Order::getTotalPrice).orElse(0.0);
+        return optional.map(Order::getTotalPrice).orElseThrow(()->
+                new OrderNotFoundException(String.format("Order with id = %s not found", id)));
     }
 }
